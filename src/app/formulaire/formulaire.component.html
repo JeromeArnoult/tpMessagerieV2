@@ -1,0 +1,18 @@
+
+<form  (ngSubmit)="submitForm()">
+    <div>
+      <label for="pseudoInput">De :</label><br><br>
+      <input type="text" id="pseudoInput" name="pseudoInput" placeholder="Saisissez votre pseudo" [(ngModel)]="pseudo"><br><br>
+    </div>
+    <div>
+      <label for="messageInput">Message :</label>
+      <textarea type="text" id="messageInput" name="messageInput" id="" cols="50" rows="5" placeholder="Saisissez votre message !"[(ngModel)]="message"></textarea>
+    </div>
+    <div class="btns">
+      <button type="submit" class="valider">Valider</button>
+      <button type="reset" class="Annuler">Annuler</button>
+    </div>
+  </form>
+
+
+       

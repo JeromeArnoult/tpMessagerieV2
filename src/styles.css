@@ -1,1 +1,123 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #333;
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  height: 900px;
+  /* background-color: #348881; */
+  background-color: rgb(172, 189, 216);
+  color:#333;
+  /* margin-top: 20px; */
+  margin: 20px auto;
+  padding: 75px 10 px 125px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 12px 13px 15px 0px #000000;
+  }
+  
+  h1 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    color: #333;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bloc-gauche {
+    width: 30%;
+    height:848px;
+    padding: 15px;
+    border-right: 2px solid #333;
+    color: #333;
+    font-weight: 700;
+  }
+  .blocDroit{
+    width: 70%;
+    
+  }
+  .blocDroit li{
+    list-style-type: none;
+    
+  }
+  .bloc-gauche ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bloc-gauche ul li {
+    padding: 5px;
+    border-bottom: 1px solid #333;
+  }
+  .inf{
+  
+    height:350px;
+  }
+  .sup {
+    padding: 30px;
+    height: 500px;
+    overflow: auto;
+  }
+  
+  .inf h2 {
+    border-top: 2px solid #333;
+    margin: 20px 0 20px 0; 
+    padding: 10px 0px 0px 20px;
+    color: #333;
+  }
+  label {
+    padding:10px;
+    margin: 10px;
+    color: #333;
+    font-weight: 700;
+  }
+  input{
+    width: 550px;
+    margin-left: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  textarea {
+    margin: 20px;
+    width: 550px;
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 5px;
+  }
+ 
+  .btns{
+    display: flex;
+    justify-content: flex-end;
+  }
+  button {
+    margin-right:40px;
+    width:70px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    
+  }
+  .messages {
+    display: block;
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    padding: 12px;
+    font-weight: 700;
+    color: #333;
+    
+  }
+  .liSup {
+    color: #333;
+  }
+  
